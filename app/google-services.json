@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "524464170234",
+    "firebase_url": "https://matchjobs-72226.firebaseio.com",
+    "project_id": "matchjobs-72226",
+    "storage_bucket": "matchjobs-72226.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524464170234:android:fd936112420fde2c",
+        "android_client_info": {
+          "package_name": "io.github.matchjobsapp.matchjobs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "524464170234-m5ohjbdatabomei4sc3qgpajahlf21vl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARk9cDPgrJIduyvL9qqGTxsYU8rME1F9o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
