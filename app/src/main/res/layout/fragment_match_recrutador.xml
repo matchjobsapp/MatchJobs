@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/matchLayoutId"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.Fragment_MatchRecrutador"
+    tools:layout_editor_absoluteY="25dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom|start"
+        android:adjustViewBounds="false"
+        android:scaleType="fitXY"
+        android:src="@mipmap/sidebar_shape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/profile_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="96dp"
+        android:layout_height="105dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="top|start"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/homer4"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewLocationId"
+        android:layout_width="88dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="32dp"
+        android:drawableLeft="@android:drawable/ic_dialog_map"
+        android:text=" Guarulhos - SP , 07191-350"
+        android:textColor="@android:color/background_light"
+
+
+        android:textSize="8sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_image" />
+
+    <TextView
+        android:id="@+id/textViewCellphoneId"
+        android:layout_width="87dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@android:drawable/stat_sys_speakerphone"
+        android:text="TextView"
+        android:textColor="@android:color/background_light"
+        android:textSize="8sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLocationId" />
+
+    <TextView
+        android:id="@+id/textViewMailId"
+        android:layout_width="89dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@android:drawable/ic_dialog_email"
+        android:text="TextView"
+        android:textColor="@android:color/background_light"
+        android:textSize="8sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCellphoneId" />
+
+    <TextView
+        android:id="@+id/textViewCargoId2"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="60dp"
+        android:text="TextView"
+        android:textColor="@android:color/background_light"
+        android:textSize="8sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCargoId1" />
+
+    <TextView
+        android:id="@+id/textViewCargoId"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text="TextView"
+        android:textColor="@android:color/background_light"
+        android:textSize="8sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textViewCargoId1"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="64dp"
+        android:text="TextView"
+        android:textColor="@android:color/background_light"
+        android:textSize="8sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCargoId" />
+
+    <TextView
+        android:id="@+id/textViewDescricaoProfissaoId"
+        android:layout_width="96dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="8dp"
+        android:text="descricao profissao"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/textViewIdadeId2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNome" />
+
+    <TextView
+        android:id="@+id/textViewExperienciaProfissaoId3"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Experiencia3"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintStart_toEndOf="@+id/profile_image"
+        app:layout_constraintTop_toBottomOf="@+id/textViewExperienciaProfissaoId2" />
+
+    <TextView
+        android:id="@+id/textViewFormacaoEducacionalFundamental"
+        android:layout_width="204dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="16dp"
+        android:text="Ensino Médio Completo"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewFormacaoEducacionalIdiomaId"
+        app:layout_constraintStart_toEndOf="@+id/profile_image"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textViewFormacaoEducacionalIdiomaId"
+        android:layout_width="202dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="16dp"
+        android:text="Ingles Intermediário"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewFormacaoEducacionalExtraId4"
+        app:layout_constraintStart_toEndOf="@+id/profile_image"
+        app:layout_constraintTop_toBottomOf="@+id/textViewFormacaoEducacionalFundamental" />
+
+    <TextView
+        android:id="@+id/textViewFormacaoEducacionalExtraId4"
+        android:layout_width="200dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="16dp"
+        android:text="Curso de Desenvolvimento Unity"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintStart_toEndOf="@+id/profile_image"
+        app:layout_constraintTop_toBottomOf="@+id/textViewFormacaoEducacionalIdiomaId" />
+
+    <TextView
+        android:id="@+id/textViewExperienciaProfissaoId2"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Experiencia2"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewExperienciaProfissaoId3"
+        app:layout_constraintStart_toEndOf="@+id/profile_image"
+        app:layout_constraintTop_toBottomOf="@+id/textViewExperienciaProfissaoId" />
+
+    <TextView
+        android:id="@+id/textViewExperienciaProfissaoId"
+        android:layout_width="96dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="16dp"
+        android:text="Experiencia1"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewExperienciaProfissaoId2"
+        app:layout_constraintStart_toEndOf="@+id/profile_image"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textViewSexoId"
+        android:layout_width="50dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="8dp"
+        android:text="Sexo: "
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textViewIdadeId2"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNome" />
+
+    <TextView
+        android:id="@+id/textViewIdadeId2"
+        android:layout_width="50dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="8dp"
+        android:text="Idade: "
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/textViewSexoId"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textViewDescricaoProfissaoId"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNome" />
+
+    <TextView
+        android:id="@+id/textViewNome"
+        android:layout_width="0dp"
+        android:layout_height="29dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="serif"
+        android:text="NOME NOMESON NOMILVA"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/profile_image"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="299dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="236dp"
+        android:drawableLeft="@drawable/ic_baseline_work_24px"
+        android:text="         EXPERIENCIAS EDUCACIONAIS"
+        app:layout_constraintStart_toEndOf="@+id/profile_image"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNome" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="299dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="450dp"
+        android:drawableLeft="@drawable/ic_baseline_monetization_on_24px"
+        android:text="    PRETENÇÃO SALARIAL"
+        app:layout_constraintStart_toEndOf="@+id/profile_image"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNome" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="299dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="46dp"
+        android:drawableLeft="@drawable/ic_baseline_work_24px"
+        android:text="         EXPERIENCIAS PROFISSIONAIS"
+        app:layout_constraintStart_toEndOf="@+id/profile_image"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNome" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="CARGOS"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMailId" />
+
+
+</android.support.constraint.ConstraintLayout>
