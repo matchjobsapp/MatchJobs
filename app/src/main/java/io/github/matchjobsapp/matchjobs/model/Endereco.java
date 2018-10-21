@@ -1,6 +1,16 @@
 package io.github.matchjobsapp.matchjobs.model;
-
-class Endereco extends AbstractModel<Long>{
+/**
+ * ╭────────────────────────────────────────────────────╮
+ * │                                                    │
+ * │   @author: Ivam H. M. Santos                       │
+ * │   https://www.linkedin.com/in/ivamsantos           |
+ * |   ivamks@gmail.com                                 |
+ * |   Project: MatchJobs                               |
+ * |   Create at 21/10/18                               │
+ * │                                                    │
+ * ╰────────────────────────────────────────────────────╯
+ */
+public class Endereco extends AbstractModel<Long>{
     private TipoEndereco tipoEndereco;
     private String logradouro;
     private Integer numero;

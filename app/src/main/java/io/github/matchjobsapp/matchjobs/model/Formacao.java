@@ -1,8 +1,18 @@
 package io.github.matchjobsapp.matchjobs.model;
 
 import java.util.Date;
-
-class Formacao extends AbstractModel<Long>{
+/**
+ * ╭────────────────────────────────────────────────────╮
+ * │                                                    │
+ * │   @author: Ivam H. M. Santos                       │
+ * │   https://www.linkedin.com/in/ivamsantos           |
+ * |   ivamks@gmail.com                                 |
+ * |   Project: MatchJobs                               |
+ * |   Create at 21/10/18                               │
+ * │                                                    │
+ * ╰────────────────────────────────────────────────────╯
+ */
+public class Formacao extends AbstractModel<Long>{
 
     private TipoFormacao tipoFormacao;
     private String formacao;

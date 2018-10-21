@@ -1,4 +1,5 @@
 package io.github.matchjobsapp.matchjobs.model;
+
 /**
  * ╭────────────────────────────────────────────────────╮
  * │                                                    │
@@ -10,6 +11,5 @@ package io.github.matchjobsapp.matchjobs.model;
  * │                                                    │
  * ╰────────────────────────────────────────────────────╯
  */
-public enum TipoTelefone {
-    Celular, Fixo, Recados
+public class Empresa {
 }

@@ -2,7 +2,17 @@ package io.github.matchjobsapp.matchjobs.model;
 
 import java.io.Serializable;
 import java.util.Objects;
-
+/**
+ * ╭────────────────────────────────────────────────────╮
+ * │                                                    │
+ * │   @author: Ivam H. M. Santos                       │
+ * │   https://www.linkedin.com/in/ivamsantos           |
+ * |   ivamks@gmail.com                                 |
+ * |   Project: MatchJobs                               |
+ * |   Create at 21/10/18                               │
+ * │                                                    │
+ * ╰────────────────────────────────────────────────────╯
+ */
 public class AbstractModel<ID extends Serializable> implements Serializable {
 
     public ID getId() {
