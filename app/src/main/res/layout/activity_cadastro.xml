@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/my_bg_anim"
-    tools:context=".activity.CadastroActivity">
+    tools:context=".view.activity.CadastroActivity">
 
     <EditText
         android:id="@+id/cidadeId"

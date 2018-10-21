@@ -1,4 +1,4 @@
-package io.github.matchjobsapp.matchjobs.activity;
+package io.github.matchjobsapp.matchjobs.view.activity;
 
 import android.content.Intent;
 import android.os.Handler;
