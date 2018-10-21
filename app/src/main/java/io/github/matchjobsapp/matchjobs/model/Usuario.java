@@ -76,4 +76,18 @@ public class Usuario extends AbstractModel<Long> {
     public void setTelefone(Telefone telefone) {
         this.telefone = telefone;
     }
+
+    @Override
+    public String toString() {
+        return "Usuario{" +
+                "nomeCompleto='" + nomeCompleto + '\'' +
+                ", dataNascimento=" + dataNascimento +
+                ", " + endereco.toString() +
+                ", " + formacao.toString() +
+                ", " + experiencia.toString() +
+                ", dataCriacao=" + dataCriacao +
+                ", email='" + email + '\'' +
+                ", " + telefone.toString() +
+                '}';
+    }
 }

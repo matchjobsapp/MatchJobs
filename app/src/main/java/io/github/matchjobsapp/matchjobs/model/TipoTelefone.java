@@ -1,4 +1,5 @@
 package io.github.matchjobsapp.matchjobs.model;
 
-class Experiencia extends AbstractModel<Long>{
+enum TipoTelefone {
+    Celular, Fixo, Recados
 }
