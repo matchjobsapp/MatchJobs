@@ -19,7 +19,8 @@ public class Endereco extends AbstractModel<Long>{
     private String cidade;
     private String uf;
     private Integer cep;
-
+    private Long latitude;
+    private Long longitude;
 
     public TipoEndereco getTipoEndereco() {
         return tipoEndereco;
@@ -85,6 +86,21 @@ public class Endereco extends AbstractModel<Long>{
         this.cep = cep;
     }
 
+    public Long getLatitude() {
+        return latitude;
+    }
+
+    public void setLatitude(Long latitude) {
+        this.latitude = latitude;
+    }
+
+    public Long getLongitude() {
+        return longitude;
+    }
+
+    public void setLongitude(Long longitude) {
+        this.longitude = longitude;
+    }
 
     @Override
     public String toString() {
@@ -97,6 +113,8 @@ public class Endereco extends AbstractModel<Long>{
                 ", cidade='" + cidade + '\'' +
                 ", uf='" + uf + '\'' +
                 ", cep=" + cep +
+                ", latitude=" + latitude +
+                ", longitude=" + longitude +
                 '}';
     }
 }

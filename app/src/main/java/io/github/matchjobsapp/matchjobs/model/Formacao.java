@@ -18,6 +18,18 @@ public class Formacao extends AbstractModel<Long>{
     private String formacao;
     private Date dataInicio;
     private Date dataConclusao;
+    private String instituicao;
+
+    @Override
+    public String toString() {
+        return "Formacao{" +
+                "tipoFormacao=" + tipoFormacao +
+                ", formacao='" + formacao + '\'' +
+                ", dataInicio=" + dataInicio +
+                ", dataConclusao=" + dataConclusao +
+                ", instituicao='" + instituicao + '\'' +
+                '}';
+    }
 
     public TipoFormacao getTipoFormacao() {
         return tipoFormacao;
@@ -51,13 +63,11 @@ public class Formacao extends AbstractModel<Long>{
         this.dataConclusao = dataConclusao;
     }
 
-    @Override
-    public String toString() {
-        return "Formacao{" +
-                "tipoFormacao=" + tipoFormacao +
-                ", formacao='" + formacao + '\'' +
-                ", dataInicio=" + dataInicio +
-                ", dataConclusao=" + dataConclusao +
-                '}';
+    public String getInstituicao() {
+        return instituicao;
+    }
+
+    public void setInstituicao(String instituicao) {
+        this.instituicao = instituicao;
     }
 }

@@ -11,5 +11,6 @@ package io.github.matchjobsapp.matchjobs.model;
  * │                                                    │
  * ╰────────────────────────────────────────────────────╯
  */
-public class Empresa {
+public class Empresa extends AbstractModel<Long>{
+
 }

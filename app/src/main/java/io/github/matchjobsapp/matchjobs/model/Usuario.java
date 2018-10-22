@@ -1,6 +1,8 @@
 package io.github.matchjobsapp.matchjobs.model;
 
 import java.util.Date;
+import java.util.List;
+
 /**
  * ╭────────────────────────────────────────────────────╮
  * │                                                    │
@@ -17,11 +19,15 @@ public class Usuario extends AbstractModel<Long> {
     private String nomeCompleto;
     private Date dataNascimento;
     private Endereco endereco;
-    private Formacao formacao;
-    private Experiencia experiencia;
+    private List<Formacao> formacao;
+    private List<Experiencia> experiencia;
     private Date dataCriacao;
     private String email;
-    private Telefone telefone;
+    private List<Telefone> telefone;
+    private String ctps;
+    private Long cpf;
+    private String rg;
+    private String senha;
 
     public String getNomeCompleto() {
         return nomeCompleto;
@@ -47,19 +53,19 @@ public class Usuario extends AbstractModel<Long> {
         this.endereco = endereco;
     }
 
-    public Formacao getFormacao() {
+    public List<Formacao> getFormacao() {
         return formacao;
     }
 
-    public void setFormacao(Formacao formacao) {
+    public void setFormacao(List<Formacao> formacao) {
         this.formacao = formacao;
     }
 
-    public Experiencia getExperiencia() {
+    public List<Experiencia> getExperiencia() {
         return experiencia;
     }
 
-    public void setExperiencia(Experiencia experiencia) {
+    public void setExperiencia(List<Experiencia> experiencia) {
         this.experiencia = experiencia;
     }
 
@@ -79,12 +85,44 @@ public class Usuario extends AbstractModel<Long> {
         this.email = email;
     }
 
-    public Telefone getTelefone() {
+    public List<Telefone> getTelefone() {
         return telefone;
     }
 
-    public void setTelefone(Telefone telefone) {
+    public void setTelefone(List<Telefone> telefone) {
         this.telefone = telefone;
+    }
+
+    public String getCtps() {
+        return ctps;
+    }
+
+    public void setCtps(String ctps) {
+        this.ctps = ctps;
+    }
+
+    public Long getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(Long cpf) {
+        this.cpf = cpf;
+    }
+
+    public String getRg() {
+        return rg;
+    }
+
+    public void setRg(String rg) {
+        this.rg = rg;
+    }
+
+    public String getSenha() {
+        return senha;
+    }
+
+    public void setSenha(String senha) {
+        this.senha = senha;
     }
 
     @Override
@@ -98,6 +136,10 @@ public class Usuario extends AbstractModel<Long> {
                 ", dataCriacao=" + dataCriacao +
                 ", email='" + email + '\'' +
                 ", " + telefone.toString() +
+                ", ctps='" + ctps + '\'' +
+                ", cpf=" + cpf +
+                ", rg='" + rg + '\'' +
+                ", senha='" + senha + '\'' +
                 '}';
     }
 }
