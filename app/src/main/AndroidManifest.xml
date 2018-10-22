@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- /**
+* ╭────────────────────────────────────────────────────╮
+* │                                                    │
+* │   @author: Ivam H. M. Santos                       │
+* │   https://www.linkedin.com/in/ivamsantos           |
+* |   ivamks@gmail.com                                 |
+* |   Project: MatchJobs                               |
+* |   Create at 22/10/18                               │
+* │                                                    │
+* ╰────────────────────────────────────────────────────╯
+*/ -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="io.github.matchjobsapp.matchjobs">
 
@@ -23,8 +34,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".fragment.fragmentMain" />
-        <activity android:name=".view.activity.CadastroActivity"></activity>
+        <activity android:name=".view.activity.LoginActivity" />
     </application>
 
 </manifest>
