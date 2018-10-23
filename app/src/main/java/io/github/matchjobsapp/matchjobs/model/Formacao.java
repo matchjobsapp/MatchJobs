@@ -70,4 +70,5 @@ public class Formacao extends AbstractModel<Long>{
     public void setInstituicao(String instituicao) {
         this.instituicao = instituicao;
     }
+
 }

@@ -68,4 +68,16 @@ public class Experiencia extends AbstractModel<Long>{
     public void setDescricao(String descricao) {
         this.descricao = descricao;
     }
+
+    @Override
+    public String toString() {
+        return "Experiencia{" +
+                ", " + empresa.toString() +
+                ", cargo='" + cargo + '\'' +
+                ", dataAdmissao=" + dataAdmissao +
+                ", dateDemissao=" + dateDemissao +
+                ", salario=" + salario +
+                ", descricao='" + descricao + '\'' +
+                '}';
+    }
 }
