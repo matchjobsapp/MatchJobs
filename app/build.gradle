@@ -31,4 +31,13 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:26.1.0'
     implementation 'de.hdodenhof:circleimageview:2.2.0'
     implementation 'com.android.support:support-v4:26.1.0'
+
+    // Lifecycle
+    implementation "android.arch.lifecycle:extensions:1.1.1"
+    implementation "android.arch.lifecycle:viewmodel:1.1.1"
+    implementation "android.arch.lifecycle:livedata:1.1.1"
+    implementation "android.arch.lifecycle:common-java8:1.1.1"
+    implementation "android.arch.lifecycle:compiler:1.1.1"
+    annotationProcessor "android.arch.lifecycle:compiler:1.1.1"
+
 }
