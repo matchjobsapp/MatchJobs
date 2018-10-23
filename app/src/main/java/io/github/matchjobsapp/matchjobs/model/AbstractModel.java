@@ -13,7 +13,7 @@ import java.util.Objects;
  * │                                                    │
  * ╰────────────────────────────────────────────────────╯
  */
-public class AbstractModel<ID extends Serializable> implements Serializable {
+public abstract class AbstractModel<ID extends Serializable> implements Serializable {
 
     public ID getId() {
         return id;
