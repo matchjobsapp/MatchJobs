@@ -1,12 +1,12 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Match Jobs</string>
     <string name="title_activity_login">Sign in</string>
     <!-- Strings related to login -->
     <string name="email">Email</string>
     <string name="password">Password </string>
-    <string name="profissional_empresa">Profissional / Empresa</string>
-    <string name="empresa">Empresa</string>
-    <string name="profissional">Profissional</string>
     <string name="login">Login</string>
     <string name="cadastrar">Cadastrar</string>
+    <string name="empresa" tools:ignore="ExtraTranslation">Empresa</string>
+    <string name="profissional_empresa">Profissional / Empresa</string>
+    <string name="profissional">Profissional</string>
 </resources>
