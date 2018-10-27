@@ -21,13 +21,29 @@
 
     <style name="NoActionBar" parent="Theme.AppCompat.NoActionBar" />
 
-    <style name="AppTheme.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
+    <style name="AppDialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+        <item name="android:windowFullscreen">false</item>
     </style>
 
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="buttonStyle" parent="Widget.AppCompat.Button">
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="buttonStyle2" parent="Widget.AppCompat.Button">
+        <item name="colorButtonNormal">@android:color/white</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
 
 </resources>

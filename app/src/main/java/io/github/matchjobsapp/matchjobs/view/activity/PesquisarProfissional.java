@@ -1,8 +1,7 @@
 package io.github.matchjobsapp.matchjobs.view.activity;
 
+import android.app.Activity;
 import android.content.Intent;
-import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import io.github.matchjobsapp.matchjobs.R;
@@ -13,31 +12,22 @@ import io.github.matchjobsapp.matchjobs.R;
  * │   https://www.linkedin.com/in/ivamsantos           |
  * |   ivamks@gmail.com                                 |
  * |   Project: MatchJobs                               |
- * |   Create at 21/10/18                               │
+ * |   Create at 27/10/18                               │
  * │                                                    │
  * ╰────────────────────────────────────────────────────╯
  */
-public class MainActivity extends AppCompatActivity implements Runnable{
-
-    private Handler handler;
+public class PesquisarProfissional extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        handler = new Handler();
-        handler.postDelayed(this, 3000);
-
+        setContentView(R.layout.activity_pesquisar_profissional);
     }
 
     @Override
-    public void run() {
-        Intent intent = new Intent(this, LoginActivity.class);
-        startActivity(intent);
+    public void onBackPressed() {
+        Intent i = new Intent(this, LoginActivity.class);
+        startActivity(i);
         finish();
     }
-
-    @Override
-    public void onBackPressed() { }
 }

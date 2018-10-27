@@ -1,6 +1,7 @@
 package io.github.matchjobsapp.matchjobs.view.activity;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 import io.github.matchjobsapp.matchjobs.R;
@@ -21,5 +22,12 @@ public class ProfissionalActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profissional);
+    }
+
+    @Override
+    public void onBackPressed() {
+        Intent i = new Intent(this, LoginActivity.class);
+        startActivity(i);
+        finish();
     }
 }

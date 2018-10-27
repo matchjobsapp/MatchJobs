@@ -35,4 +35,9 @@
     <string name="title_activity_pesquisar_vagas">PesquisarVagasActivity</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_pesquisar_profissional">PesquisarProfissionalActivity</string>
+    <string name="atencao">Atenção</string>
+    <string name="sairSistema">Deseja realmente sair?</string>
+    <string name="sim">Sim</string>
+    <string name="saindo">saindo...</string>
+    <string name="nao">Não</string>
 </resources>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- /**
+<?xml version="1.0" encoding="utf-8"?><!--
+ /**
 * ╭────────────────────────────────────────────────────╮
 * │                                                    │
 * │   @author: Ivam H. M. Santos                       │
@@ -9,7 +9,8 @@
 * |   Create at 22/10/18                               │
 * │                                                    │
 * ╰────────────────────────────────────────────────────╯
-*/-->
+*/
+-->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="io.github.matchjobsapp.matchjobs">
 
@@ -36,7 +37,9 @@
         </activity>
         <activity android:name=".view.activity.LoginActivity" />
         <activity android:name=".view.activity.ProfissionalActivity" />
-        <activity android:name=".view.activity.EmpresaActivity"></activity>
+        <activity android:name=".view.activity.EmpresaActivity" />
+        <activity android:name=".view.activity.PesquisarVaga" />
+        <activity android:name=".view.activity.PesquisarProfissional"></activity>
     </application>
 
 </manifest>
