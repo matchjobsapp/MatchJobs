@@ -15,14 +15,6 @@
       },
       "oauth_client": [
         {
-          "client_id": "524464170234-70tm3i2us1omrckm24kpfa0ebjule0ec.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "io.github.matchjobsapp.matchjobs",
-            "certificate_hash": "b354e20d178a3b1fe094c94cd547e6fd5383ac8a"
-          }
-        },
-        {
           "client_id": "524464170234-m5ohjbdatabomei4sc3qgpajahlf21vl.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -37,13 +29,8 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "524464170234-m5ohjbdatabomei4sc3qgpajahlf21vl.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "status": 1,
+          "other_platform_oauth_client": []
         },
         "ads_service": {
           "status": 2

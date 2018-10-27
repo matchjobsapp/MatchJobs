@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- /**
+<?xml version="1.0" encoding="utf-8"?><!-- /**
 * ╭────────────────────────────────────────────────────╮
 * │                                                    │
 * │   @author: Ivam H. M. Santos                       │
@@ -33,4 +32,7 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="title_activity_pesquisar_vagas">PesquisarVagasActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_pesquisar_profissional">PesquisarProfissionalActivity</string>
 </resources>
