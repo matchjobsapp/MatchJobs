@@ -1,3 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- /**
+* ╭────────────────────────────────────────────────────╮
+* │                                                    │
+* │   @author: Ivam H. M. Santos                       │
+* │   https://www.linkedin.com/in/ivamsantos           |
+* |   ivamks@gmail.com                                 |
+* |   Project: MatchJobs                               |
+* |   Create at 22/10/18                               │
+* │                                                    │
+* ╰────────────────────────────────────────────────────╯
+*/-->
 <resources>
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>

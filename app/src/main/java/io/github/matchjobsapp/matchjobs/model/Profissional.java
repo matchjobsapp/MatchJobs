@@ -14,7 +14,7 @@ import java.util.List;
  * │                                                    │
  * ╰────────────────────────────────────────────────────╯
  */
-public class Usuario extends AbstractModel<Long> {
+public class Profissional extends AbstractModel<Long> {
 
     private String nomeCompleto;
     private Date dataNascimento;
@@ -127,7 +127,7 @@ public class Usuario extends AbstractModel<Long> {
 
     @Override
     public String toString() {
-        return "Usuario{" +
+        return "Profissional{" +
                 "nomeCompleto='" + nomeCompleto + '\'' +
                 ", dataNascimento=" + dataNascimento +
                 ", " + endereco.toString() +
