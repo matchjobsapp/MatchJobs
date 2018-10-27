@@ -18,7 +18,7 @@
     tools:context=".view.activity.LoginActivity">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imgLogo"
         android:layout_width="96dp"
         android:layout_height="96dp"
         android:layout_marginStart="8dp"
@@ -29,7 +29,8 @@
         app:layout_constraintBottom_toTopOf="@+id/textInputLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/app_name" />
 
 
     <android.support.design.widget.TextInputLayout
@@ -44,7 +45,7 @@
         app:layout_constraintEnd_toEndOf="@+id/textInputLayout2"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/textInputLayout2"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/imgLogo"
         tools:ignore="MissingConstraints">
 
         <android.support.design.widget.TextInputEditText
@@ -120,10 +121,10 @@
             android:layout_width="0.dip"
             android:layout_height="72dp"
             android:layout_weight="0.5"
-            android:layout_marginStart="16dp"
             android:layout_marginEnd="4dp"
             android:text="@string/cadastrar"
-            android:theme="@style/buttonStyle2"/>
+            android:theme="@style/buttonStyle2"
+            tools:ignore="ButtonStyle" />
 
         <Button
             android:id="@+id/btLogin"
@@ -131,11 +132,8 @@
             android:layout_height="72dp"
             android:layout_weight="0.5"
             android:layout_marginStart="4dp"
-            android:layout_marginEnd="16dp"
             android:text="@string/login"
-            android:theme="@style/buttonStyle"/>
+            android:theme="@style/buttonStyle"
+            tools:ignore="ButtonStyle" />
     </LinearLayout>
-
-
-
 </android.support.constraint.ConstraintLayout>
