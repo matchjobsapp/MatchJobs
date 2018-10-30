@@ -33,9 +33,9 @@ public class EmpresaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_empresa);
 
         EditText etNomeEmpresa = findViewById(R.id.etNomeEmpresa);
-        EditText etCnpj = findViewById(R.id.etCnpj);
-        EditText etEndereco = findViewById(R.id.etEndereco);
-        EditText etTelefone = findViewById(R.id.etTelefone);
+//        EditText etCnpj = findViewById(R.id.etCnpj);
+//        EditText etEndereco = findViewById(R.id.etEndereco);
+//        EditText etTelefone = findViewById(R.id.etTelefone);
         EditText etEmailEmpresa = findViewById(R.id.etEmailEmpresa);
         EditText etSenhaEmpresa = findViewById(R.id.etSenhaEmpresa);
 
