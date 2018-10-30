@@ -1,6 +1,57 @@
+
+Skip to content
+
+    Pull requests
+    Issues
+    Marketplace
+    Explore
+
+    @matchjobsapp
+
+2,709
+74,460
+
+    35,078
+
+github/gitignore
+Code
+Pull requests 155
+Projects 0
+Insights
+gitignore/Android.gitignore
+13c6410 16 days ago
+@shiftkey shiftkey Merge pull request #2806 from Orbyt/patch-1
+@arcresu
+@shiftkey
+@tral
+@friederbluemle
+@callingshotgun
+@AdrianVovk
+@Zarkopafilis
+@whoshuu
+@evorion
+@szpssky
+@SamWhited
+@esaalii
+@exarus
+@neetrath
+@Neargye
+@mquigley
+@malhobayyeb
+@kevinmost
+@vitorprado
+@jsoref
+@jshou
+@HIPERCUBE
+@jschmid
+@PR3x
+@izuzak
+@FionaHagen
+68 lines (52 sloc) 1021 Bytes
 # Built application files
 *.apk
 *.ap_
+*.aab
 
 # Files for the ART/Dalvik VM
 *.dex
@@ -43,14 +94,15 @@ captures/
 .idea/caches
 
 # Keystore files
-# Uncomment the following line if you do not want to check your keystore files in.
+# Uncomment the following lines if you do not want to check your keystore files in.
 #*.jks
+#*.keystore
 
 # External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild
 
 # Google Services (e.g. APIs or Firebase)
-# google-services.json
+google-services.json
 
 # Freeline
 freeline.py
@@ -62,3 +114,20 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
+fastlane/readme.md
+
+    © 2018 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Status
+    Help
+
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
+
+Press h to open a hovercard with more details.
