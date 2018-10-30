@@ -39,7 +39,8 @@
         <activity android:name=".view.activity.ProfissionalActivity" />
         <activity android:name=".view.activity.EmpresaActivity" />
         <activity android:name=".view.activity.PesquisarVaga" />
-        <activity android:name=".view.activity.PesquisarProfissional"></activity>
+        <activity android:name=".view.activity.PesquisarProfissional" />
+        <activity android:name=".view.activity.CadastrarActivity"></activity>
     </application>
 
 </manifest>

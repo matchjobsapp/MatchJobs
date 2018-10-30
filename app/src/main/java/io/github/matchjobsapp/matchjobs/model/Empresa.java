@@ -21,6 +21,7 @@ public class Empresa extends AbstractModel<Long> {
     private Telefone telefone;
     private String email;
     private List<Vaga> vagas;
+    private String senha;
 
     public RamoAtividade getRamoAtividade() {
         return ramoAtividade;
@@ -76,6 +77,14 @@ public class Empresa extends AbstractModel<Long> {
 
     public void setVagas(List<Vaga> vagas) {
         this.vagas = vagas;
+    }
+
+    public String getSenha() {
+        return senha;
+    }
+
+    public void setSenha(String senha) {
+        this.senha = senha;
     }
 
     @Override
