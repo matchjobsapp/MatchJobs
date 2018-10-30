@@ -40,4 +40,5 @@
     <string name="sim">Sim</string>
     <string name="saindo">saindo...</string>
     <string name="nao">Não</string>
+    <string name="cancelarCadastro">Deseja cancelar o cadastro?</string>
 </resources>
